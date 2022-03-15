@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source settings.cfg
+
+ssh -p $RTOS_PORT $RTOS_USER@$RTOS_HOST

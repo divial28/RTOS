@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source settings.cfg
+
+scp -r -P $RTOS_PORT ./* $RTOS_USER@$RTOS_HOST:/root/$RTOS_WORKSPACE_NAME
