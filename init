@@ -8,6 +8,6 @@ RTOS_HOST=\"127.0.0.1\"
 RTOS_PORT=\"4022\"
 RTOS_USER=\"root\"" > settings.cfg
 
-rm -f .gitignore &>/dev/nulll
-rm -f init &>/dev/null
+rm -f .gitignore 
+rm -f init 
 rm -rf RTOS

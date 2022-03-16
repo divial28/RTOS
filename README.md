@@ -25,7 +25,7 @@ After executing _init_ script u can setup settings.cfg for your connection.
 
 ## Usage
 After initialisation and configuring settings.cfg you can use other scripts:
-1. sync - for syncing remote remote workspace with local,
+1. sync - for syncing remote remote workspace with local (__Note__ that /root/$RTOS_WORKSPACE_NAME/ directiory must be created on remote QNX),
 2. connect - for establish ssh connection to remote QNX.
 
 ## Example
