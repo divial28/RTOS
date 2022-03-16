@@ -1,5 +1,12 @@
 #!/bin/bash
 
+cp * ..
+cd ..
+
+rm -rf RTOS &>/dev/null
+rm -f .gitignore &>/dev/null
+rm -f init &>/dev/null
+
 echo 'RTOS_WORKSPACE=$( pwd )
 RTOS_WORKSPACE_NAME=$( pwd | sed "s/.*\/\(workspace\)/\1/")
 RTOS_HOST="127.0.0.1"

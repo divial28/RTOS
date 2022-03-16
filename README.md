@@ -10,13 +10,13 @@ Contains scripts for syncronization and interaction with remote QNX.
 ```bash
 #create workspace and run following from created directory
 git clone git@github.com:vlchgfx/RTOS.git
-./init
+./RTOS/init
 ```
 
 ## Setting up connection
 After executing _init_ script u can setup settings.cfg for your connection.
 | Property		        | Description					    |
-|:---------------------:|:---------------------------------------------:|
+|:---------------------:|---------------------------------------------|
 | RTOS_WORKSPACE 	| absolute path to yout workspace directory	|
 | RTOS_WORKSPACE_NAME	| workspace name				|
 | RTOS_HOST		| remote QNX host (localhost by default		|
