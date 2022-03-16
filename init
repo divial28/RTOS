@@ -1,14 +1,13 @@
 #!/bin/bash
 
-cp * ..
-cd ..
-
-rm -rf RTOS &>/dev/null
-rm -f .gitignore &>/dev/null
-rm -f init &>/dev/null
+cp RTOS/* .
 
 echo 'RTOS_WORKSPACE=$( pwd )
 RTOS_WORKSPACE_NAME=$( pwd | sed "s/.*\/\(workspace\)/\1/")
 RTOS_HOST="127.0.0.1"
 RTOS_PORT="4022"
 RTOS_USER="root"' > settings.cfg
+
+rm -f .gitignore &>/dev/nulll
+rm -f init &>/dev/null
+rm -rf RTOS &>/dev/null
